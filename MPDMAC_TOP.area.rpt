@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : area
+Design : MPDMAC_TOP
+Version: Q-2019.12-SP5-5
+Date   : Mon Jun 23 14:59:34 2025
+****************************************
+
+Library(s) Used:
+
+    um28nchllogl35udl140f_ssgwc0p81v125c (File: /home/ScalableArchiLab/UMC/um28nchllogl35udl140f_ssgwc0p81v125c.db)
+
+Number of ports:                         1150
+Number of nets:                          3616
+Number of cells:                         2776
+Number of combinational cells:           1982
+Number of sequential cells:               787
+Number of macros/black boxes:               0
+Number of buf/inv:                        201
+Number of references:                       4
+
+Combinational area:               1006.655998
+Buf/Inv area:                       41.845999
+Noncombinational area:            1264.787983
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2271.443981
+Total area:                 undefined
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------------------
+MPDMAC_TOP                        2271.4440    100.0     0.7840     0.0000  0.0000  MPDMAC_TOP
+u_cfg                              260.5820     11.5   100.6460   159.9360  0.0000  MPDMAC_CFG
+u_engine                          2010.0780     88.5   221.8720   276.9480  0.0000  MPDMAC_ENGINE
+u_engine/add_171                    34.3980      1.5    34.3980     0.0000  0.0000  MPDMAC_ENGINE_DW01_add_2
+u_engine/add_179                    35.4760      1.6    35.4760     0.0000  0.0000  MPDMAC_ENGINE_DW01_add_1
+u_engine/add_214_aco                27.6360      1.2    27.6360     0.0000  0.0000  MPDMAC_ENGINE_DW01_add_0
+u_engine/pad_fifo                 1379.2520     60.7   551.3480   827.9040  0.0000  MPDMAC_FIFO
+u_engine/sub_112                    34.4960      1.5    34.4960     0.0000  0.0000  MPDMAC_ENGINE_DW01_sub_0_DW01_sub_1
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------------------
+Total                                                 1006.6560  1264.7880  0.0000
+
+1
